@@ -1,0 +1,15 @@
+{
+	"app_title": "Title",
+	"language": "Language",
+	"welcome_message": "Bem-vindo {{name}}",
+	"days_since_release": "já se passaram {{number_of_days}} dias desde que este vídeo foi lançado",
+
+	"Home": "Home",
+	"Users": "Usuários",
+	"Create Post": "Criar postagem",
+	"Sign In": "Começar a sessão",
+	"Sign Up": "Registar-se",
+	"Admin": "Admin",
+	"Sign Out": "Salir",
+	"Find People": "Encontrar Pessoas"
+}

@@ -7,6 +7,11 @@ export const languages = [
       country_code: 'py',
     },
     {
+      code: 'br',
+      name: 'Brasil',
+      country_code: 'br',
+    },
+    {
       code: 'fr',
       name: 'Français',
       country_code: 'fr',

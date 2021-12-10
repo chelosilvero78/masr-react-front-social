@@ -6,7 +6,7 @@ import i18next from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import HttpApi from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
-import 'flag-icon-css/css/flag-icon.min.css'
+
 
 
 i18next
@@ -14,8 +14,8 @@ i18next
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
-        supportedLngs: ['es', 'en', 'ar', 'fr'],
-        fallbackLng: 'en',
+        supportedLngs: ['es','br', 'en', 'ar', 'fr'],
+        fallbackLng: 'es',
         debug: false,
         // Options for language detector
         detection: {
@@ -24,7 +24,7 @@ i18next
         },
         // react: { useSuspense: false },
         backend: {
-            loadPath: '/assets/locales/{{lng}}/translation.json',
+            loadPath: 'assets/locales/{{lng}}/translation.json',
         },
     })
 
